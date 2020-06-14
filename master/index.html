@@ -14,71 +14,87 @@
     <link rel="stylesheet" href="lib/estilo.css" />
 
     <!-- Estilos de los recursos adicionales -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
   </head>
   <body>
     <div class="container">
       <div class="page-header">
-        <h1>Bootstrap</h1>
+        <h1><i class="fa fa-bookmark-o"></i> fontAwesome</h1>
         <p class="lead">Descripción del recurso.</p>
       </div>
 
       <!-- Editar desde aquí  -->
+      <button type="button" class="btn btn-primary">
+        <i class="fa fa-hdd-o"></i> Guardar
+      </button>
+      <button type="button" class="btn btn-success">
+        <i class="fa fa-refresh fa-spin"></i> Guardando ...
+      </button>
+      <br />
 
-      <div class="row">
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-      </div>
+      <i class="fa fa-camera-retro fa-lg"></i> fa-lg <br />
+      <i class="fa fa-camera-retro fa-2x"></i> fa-2x <br />
+      <i class="fa fa-camera-retro fa-3x"></i> fa-3x <br />
+      <i class="fa fa-camera-retro fa-4x"></i> fa-4x <br />
+      <i class="fa fa-camera-retro fa-5x"></i> fa-5x <br />
 
       <br />
 
-      <div class="row">
-        <div class="col-md-8 col-xs-8">.col-md-8</div>
-        <div class="col-md-4 col-xs-4">.col-md-4</div>
+      <div class="list-group">
+        <a class="list-group-item" href="#"
+          ><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a
+        >
+        <a class="list-group-item" href="#"
+          ><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a
+        >
+        <a class="list-group-item" href="#"
+          ><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp;
+          Applications</a
+        >
+        <a class="list-group-item" href="#"
+          ><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a
+        >
       </div>
 
       <br />
-      <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
+      <ul class="fa-ul">
+        <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+        <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+        <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+        <li><i class="fa-li fa fa-square"></i>in lists</li>
+      </ul>
 
       <br />
-      <div class="row">
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-6">.col-md-6</div>
-      </div>
+      <i class="fa fa-shield"></i> normal<br />
+      <i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br />
+      <i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180<br />
+      <i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270<br />
+      <i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br />
+      <i class="fa fa-shield fa-flip-vertical"></i> fa-flip-vertical
 
-      <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
-      <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
-      <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
-      <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
-      <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
-      <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+      <br />
+      <br />
 
-      <button type="button" class="btn btn-default">Default</button>
-
-      <button type="button" class="btn btn-primary">Primary</button>
-
-      <button type="button" class="btn btn-success">Success</button>
-
-      <button type="button" class="btn btn-info">Info</button>
-
-      <button type="button" class="btn btn-warning">Warning</button>
-
-      <button type="button" class="btn btn-danger">Danger</button>
-
-      <button type="button" class="btn btn-link">Link</button>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+      </span>
+      fa-twitter on fa-square-o<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+      </span>
+      fa-flag on fa-circle<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+      </span>
+      fa-terminal on fa-square<br>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-camera fa-stack-1x"></i>
+        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+      </span>
+      fa-ban on fa-camera
       <!-- Hasta aquí modificaremos -->
     </div>
 
