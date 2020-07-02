@@ -7,7 +7,8 @@ Columnas-Titulos-Botones
 
 
 ## Iconos de 256 x 256
-Visitar la pagina de iconspedia
+Visitar la pagina de [site]
+[site]: https://www.iconspedia.com/
 
 ## CSSAuthor
 Sirve para descargar mockups gratuitos
